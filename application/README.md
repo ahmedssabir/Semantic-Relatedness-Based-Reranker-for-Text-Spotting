@@ -66,7 +66,7 @@ Then we need to add the configration file *LSTM.json*
 preparing the training data 
 
 ```
-A sentence , B sentence , 0 or 1 
+A sentence, B sentence, 0/1 
 ```
 
 
