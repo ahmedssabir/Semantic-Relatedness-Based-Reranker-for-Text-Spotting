@@ -119,7 +119,7 @@ More example here [examples](examples/README.md)
 
 ## Adding your custom model
 
-Please refer to [application ](https://github.com/sabirdvd/FDLCSTM/tree/main/application) 
+Please refer to [application ](https://github.com/ahmedssabir/Semantic-Relatedness-Based-Re-ranker-for-Text-Spotting-/tree/main/application) 
 
  
 ## Citation
