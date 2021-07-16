@@ -66,6 +66,4 @@ Then we need to add the configration file *LSTM.json*
 Finally 
 
 ```
-python FDCLSTM_qqp.py config/CNN.json
-or
 python FDCLSTM.py config/CNN.json
