@@ -117,22 +117,6 @@ Download the [pretrained model](https://www.dropbox.com/s/kyhlkvtku5rs4y1/model_
 
 More example here [examples](examples/README.md) 
 
-## Other Task: Quora Question Pairs
-
-Quora Question Pairs dataset can be downloaded from https://www.kaggle.com/c/quora-question-pairs
-
-Then run:
-```
-python FDCLSTM_qqp.py config/FDCLSTM.json
-```
-## Demo 
-```
-question1, question2, score, GT
-How does a long distance relationship work?, How are long distance relationships maintained?, 0.99, 1 
-What do you think of the removal of the MagSafe connector from Apple's 2016 MacBook Pro?, What will the CPU upgrade to the 2016 Apple MacBook Pro mean?, 0.15, 0
-``` 
-Download the [pretrained model](https://www.dropbox.com/s/o2lnk0zn0c8gtzm/model_FDCLSTM_qqp.h5?dl=0) 
-
 ## Adding your custom model
 
 Please refer to [application ](https://github.com/sabirdvd/FDLCSTM/tree/main/application) 
