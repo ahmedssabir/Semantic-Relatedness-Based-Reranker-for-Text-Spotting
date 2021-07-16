@@ -64,7 +64,7 @@ from keras.layers import Permute, concatenate, Masking, dot
 from keras.models import Model
 from keras import optimizers
 from keras.models import load_model
-from keras.models import load_model
+
 
 ###################
 import keras
@@ -869,7 +869,7 @@ class Solver(object):
                           optimizer='nadam',
                           metrics=['acc']) 
          
- 	# toy model with bidirection  ###########################
+ 	# toy example with bidirectional_LSTM  
         elif self.params['model'] == "bidirectional_LSTM":
             embedding_layer = Embedding(self.nb_words,
                                         self.params['embedding_dim'],
@@ -908,7 +908,7 @@ class Solver(object):
                           metrics=['acc'])
             
 
-	#elif self.params['model'] == 'CNN':
+
  	elif self.params['model'] == 'FDCLSTM':
                     
             embedding_layer1 = Embedding(self.nb_words,
