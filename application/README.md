@@ -45,7 +45,7 @@ elif self.params['model'] == "CNN":
                            #optimizer='adam',
                           metrics=['acc'])
 ```
-Then we need to add the configration file *LSTM.json*
+Then we need to add the configration file *CNN.json*
 
 ```
 {
