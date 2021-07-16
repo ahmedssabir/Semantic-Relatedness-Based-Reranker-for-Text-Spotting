@@ -1,0 +1,1 @@
+# Semantic-Relatedness-Based-Re-ranker-for-Text-Spotting-
