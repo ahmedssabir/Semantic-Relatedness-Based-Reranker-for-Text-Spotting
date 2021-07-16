@@ -2,7 +2,7 @@
 
 Implementation of the paper [Semantic Relatedness Based Re-ranker for Text Spotting](https://arxiv.org/pdf/1909.07950.pdf). sabir et al. EMNLP 2019.
 
-This model is modified to handle two inputs (1) to learn a word-to-object relation directly with the overlapping layers and (2) it can be used for other sentence pair similarity tasks (e.g. sentence semantic similarity and duplicated answers), in addition to natural language inference.
+The model here is a modified and improved version to handle two inputs (1) to learn a word-to-object relation directly with the overlapping layers and (2) it can be used for other sentence pair similarity tasks (e.g. sentence semantic similarity and duplicated answers), in addition to natural language inference.
 
 ![example](Figure-1.jpg)
 
