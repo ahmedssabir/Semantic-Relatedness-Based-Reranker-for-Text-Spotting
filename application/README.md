@@ -63,7 +63,14 @@ Then we need to add the configration file *LSTM.json*
 }
 }
 ```
-Finally 
+preparing the training data 
+
+```
+A sentence , B sentnce , 0 or 1 
+```
+
+
+Finally .. your model 
 
 ```
 python FDCLSTM.py config/CNN.json
