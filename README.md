@@ -31,7 +31,7 @@ More information about the training data can be found in this [paper](https://gi
  
 
 ## Training config 
-First we need to set the training configation in the conf file:
+First, we need to set the training config file:
 
 ```
 {
