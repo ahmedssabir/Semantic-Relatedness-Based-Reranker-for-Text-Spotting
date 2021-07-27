@@ -835,6 +835,7 @@ class Solver(object):
 
   
     def load_model(self):
+	# toy example with LSTM  	
         if self.params['model'] == 'LSTM':
             embedding_layer = Embedding(self.nb_words,
                                         self.params['embedding_dim'],
@@ -908,7 +909,7 @@ class Solver(object):
                           metrics=['acc'])
             
 
-
+	# Fusion Dual C-LSTM 
  	elif self.params['model'] == 'FDCLSTM':
                     
             embedding_layer1 = Embedding(self.nb_words,
