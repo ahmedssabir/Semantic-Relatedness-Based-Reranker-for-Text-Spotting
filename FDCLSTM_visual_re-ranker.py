@@ -930,7 +930,7 @@ class Solver(object):
 					mask_zero=False)     
 
  	
-            # Emedding 1 (fix) 
+            # Embedding 1 (fix) 
             sequence_1_input = Input(shape=(self.params['max_seq_len'],), dtype='int32')
             sequence_2_input = Input(shape=(self.params['max_seq_len'],), dtype='int32')
 	
@@ -1090,7 +1090,7 @@ class Solver(object):
         self.best_val_score = min(hist.history['val_loss'])  
 
     def predict(self):
-        # Write the submission
+        # Write the output prediction to a file 
         logging.info('Writing prediction')
         
         preds = self.model.predict(self.test_data['X'], batch_size=2048, verbose=2)
