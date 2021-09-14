@@ -58,7 +58,9 @@ Then run for training and prediction:
 ```
 python FDCLSTM_visual_re-ranker.py config/FDCLSTM.json
 ```
-
+## Quick Start 
+Familiarize yourself with architecture  by running the model in Colab!
+[Example of lighter model training and inference](https://github.com/ahmedssabir/Semantic-Relatedness-Based-Reranker-for-Text-Spotting/blob/main/FDCLSMT_Demo.ipynb)
 ## Demo 
 
 /data/test.csv from COCO-text (ICDAR 2017)
