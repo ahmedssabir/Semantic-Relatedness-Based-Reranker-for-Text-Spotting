@@ -61,7 +61,7 @@ python FDCLSTM_visual_re-ranker.py config/FDCLSTM.json
 ## Quick Start 
 Familiarize yourself with the model architecture  by running the model in Colab!
 
-[Example of lighter model training and inference](https://github.com/ahmedssabir/Semantic-Relatedness-Based-Reranker-for-Text-Spotting/blob/main/FDCLSMT_Demo.ipynb)
+[Example of lighter model training and inference](https://colab.research.google.com/drive/1OTGYncEQFSOXCGZ_H4i1QNRTHWc47y3S?usp=sharing)
 ## Demo 
 
 /data/test.csv from COCO-text (ICDAR 2017)
