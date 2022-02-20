@@ -59,7 +59,7 @@ Then run for training and prediction:
 python FDCLSTM_visual_re-ranker.py config/FDCLSTM.json
 ```
 ## Quick Start 
-Familiarize yourself with the model architecture  by running the model in Colab!
+Familiarize yourself with the model architecture  by reading this [blog](https://medium.com/@iee_53136/an-application-for-semantic-relatedness-post-ocr-correction-1e7285a78f4f) and running the model in Colab!
 
 [Example of lighter model training and inference](https://colab.research.google.com/drive/1OTGYncEQFSOXCGZ_H4i1QNRTHWc47y3S?usp=sharing)
 ## Demo 
